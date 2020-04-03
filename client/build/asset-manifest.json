@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ca7226e.chunk.css",
+    "main.js": "/static/js/main.a40827c9.chunk.js",
+    "main.js.map": "/static/js/main.a40827c9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.11bc70d3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.11bc70d3.js.map",
+    "static/css/2.ab5dcbdc.chunk.css": "/static/css/2.ab5dcbdc.chunk.css",
+    "static/js/2.9449b413.chunk.js": "/static/js/2.9449b413.chunk.js",
+    "static/js/2.9449b413.chunk.js.map": "/static/js/2.9449b413.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dacbdb9f072f8ce369f43aa37aaba04b.js": "/precache-manifest.dacbdb9f072f8ce369f43aa37aaba04b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ab5dcbdc.chunk.css.map": "/static/css/2.ab5dcbdc.chunk.css.map",
+    "static/css/main.5ca7226e.chunk.css.map": "/static/css/main.5ca7226e.chunk.css.map",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/notebook.jpg": "/static/media/notebook.e9721755.jpg",
+    "static/media/support.png": "/static/media/support.7daebf03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11bc70d3.js",
+    "static/css/2.ab5dcbdc.chunk.css",
+    "static/js/2.9449b413.chunk.js",
+    "static/css/main.5ca7226e.chunk.css",
+    "static/js/main.a40827c9.chunk.js"
+  ]
+}

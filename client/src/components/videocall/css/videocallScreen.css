@@ -1,0 +1,100 @@
+.call-window {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0;
+	z-index: -1;
+}
+
+.call-window.active {
+	opacity: 1;
+	z-index: auto;
+}
+
+.call-window.active.video-control{
+    z-index: auto;
+}
+
+.call-window.video-control {
+    /* position: absolute; */
+    bottom: 20px;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    z-index: -1;
+}
+.call-window.video-control:hover{
+    opacity:0.5;
+}
+
+.call-window video{
+    position:absolute;
+}
+@media only screen and (min-width: 992px) {
+	#localVideo {
+		top:48%;
+		height:50%;
+	}
+	#peerVideo{
+	height:50%;
+	}
+
+}
+
+
+
+.video-control{
+		opacity: 0.8;	
+		height:50px;
+		width: 50px;
+		line-height: 50px;
+		margin-top: 490px;
+		margin-left: 50px;
+		font-size: 1.4em;
+		text-align: center;
+		border-radius: 50%;
+		cursor: pointer;
+		transition-duration: 0.25s;
+    }
+
+
+.video-control #btnvideo {
+		height:50px;
+		width:50px;
+		line-height:10px;
+		border-radius:50%;
+		border:solid 2px green;
+		cursor:pointer;
+		transition-duration: 0.25s;
+		background-color:transparent;
+		margin-bottom:2px;
+		margin-top: 3px;
+		background-color: green;
+	}
+	
+.video-control	#btnaudio {
+		height:50px;
+		width:50px;
+		line-height:10px;
+		border-radius:50%;
+		border:solid 2px grey;
+		cursor:pointer;
+		transition-duration: 0.25s;
+		background-color:grey;
+		margin-top:5px
+	
+}
+
+.video-control	#btnend {
+		height:50px;
+		width:50px;
+		line-height:10px;
+		border-radius:50%;
+		border:solid 2px red;
+		background-color:red;
+		cursor:pointer;
+		margin-top:5px;
+}

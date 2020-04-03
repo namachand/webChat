@@ -1,0 +1,59 @@
+.leftMainDivMobile{
+    opacity:1;
+    background-color: cadetblue;
+    margin-left: 2%;
+    margin-top:8vh;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+    display: flex;
+    justify-content: center;
+}
+.headYourGenderMobile{
+    display: flex;
+    justify-content: center;
+}
+.paraYourGenderMobile{
+    font-size: x-large;
+    font-style: italic;
+    font: bold;
+    color: mintcream;
+}
+.butn-actionMobile {
+    height:60px;
+    width:60px;
+    line-height:10px;
+    text-align:center;
+    border-radius:50%;
+    border:solid 1px white;
+    cursor:pointer;
+    transition-duration: 0.25s;
+    background-color:transparent;
+    margin-bottom:2px;
+    box-shadow: 0px 0px 1px 1px grey;
+    opacity: 1;
+    background-color: mintcream;
+    }
+    .paraYourGenderLeftBottomMobile{
+        font-size: large;
+        font-style: italic;
+        font: bold;
+        color: white;
+    }
+    .YourGenderLeftBottomMobile{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .footParaMobile{
+        font-size: x-small;
+        padding-left: 2px;
+    }
+    .divPublicButtonMobile{
+        display:flex;
+        justify-content: center;
+      
+    }
+    .lowerDivMobile{
+        height:40vh;
+        font-weight: bold;   
+ }

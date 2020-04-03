@@ -1,0 +1,34 @@
+.call-modal{
+    position: absolute;
+    width: 400px;
+	padding: 20px;
+	left: calc(50vw - 200px);
+	top: calc(50vh - 60px);
+    text-align: center;
+    display: none;
+}
+.call-modal.active{
+    display:block;
+    z-index:9999;
+}
+.call-modal .btn-action {
+    height:50px;
+    width: 50px;
+    line-height: 50px;
+    margin: 0px 8px;
+    font-size: 1.4em;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+.call-modal .btn-action:hover {
+    opacity: 0.8;	
+}
+.call-modal .btn-action.hangup {
+    background-color: red;
+}
+    
+.call-modal .btn-action:not(.hangup) {
+    background-color: green;
+}

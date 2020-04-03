@@ -1,0 +1,363 @@
+body {
+    z-index: 0;
+  }
+  html,body{
+    max-width:100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+  } 
+  .row3{
+    height:10vh;  
+    padding:3px 3px 3px;
+  }
+  .crd1{
+    margin-top:1px;
+    height:74vh;
+  }
+  
+  #comment{
+    height:8vh;
+    resize:none;
+    overflow:auto;
+    border-radius: 15px;
+  }
+  #btn1{
+    height:8vh;
+    border: 2px;
+    border-radius:15px;
+  }
+  
+  .card {
+    padding: 3px 3px 3px 3px;
+  }
+  #messages{
+    float:left;
+  }
+  
+  
+  .frnt{
+    min-width: 100%;
+    height:495px;
+    background-color: yellow;
+  }
+  /* for the front page content*/
+  .backgroundMainDiv{
+    height:90vh;
+    max-width:100vw;
+    overflow-y: scroll;
+    margin-top: 2%;
+  }
+  .frontContainer{
+    max-width:100vw;
+    height:139vh;
+    background-color: lightblue;
+    
+  }
+  .frontPageHeader{
+    height:15vh;
+    background-color: black;
+  }
+  .mainGenDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:85vh;
+    width: 50vw;
+    opacity:1;
+    margin-left: 2%;
+  }
+ 
+  .leftMainDiv{
+    height:40vh;
+    width: 50vw;
+    opacity:0.9;
+    background-color: mintcream;
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    
+  }
+  .genderDiv{
+    margin-bottom: auto;
+    height:20vh;
+    width: 50vw;
+  }
+  .lowerDiv{
+    height:30vh;
+    background-color: mintcream;
+    box-shadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
+
+  }
+  .divPublicButton{
+    display:flex;
+    justify-content: center;
+    margin-top:10%;
+    }
+    .aboutus{
+      color: teal;
+    }
+
+  #maleText{
+  text-align: right; 
+   }
+ .butn-action {
+  height:100px;
+  width:100px;
+  line-height:10px;
+  text-align:center;
+  border-radius:50%;
+  border:solid 1px white;
+  cursor:pointer;
+  transition-duration: 0.25s;
+  background-color:transparent;
+  margin-bottom:2px;
+  box-shadow: 0px 0px 1px 1px grey;
+  opacity: 0.8;
+  background-color: mintcream;
+  }
+.butn-action:hover,
+.butn-action:focus,
+.butn-action:active {
+  transform: scale(1.1);
+}
+  #maleButton{
+    float:right;
+    color:blue;
+    border:solid 2.5px white
+  }
+  #femaleButton{
+    border:solid 2.5px white;
+    color:magenta
+  }
+  .paraGender{
+    font-weight: 500;
+    color: mintcream;
+    font-style: italic;
+    font-size: larger;
+    opacity:1
+  }
+  .headYourGender{
+    margin-bottom: 2%;;
+    display: flex;
+    justify-content: center;
+  }
+  .paraYourGender{
+    font-size: xx-large;
+    font-style: italic;
+    font: bold;
+    color: mintcream;
+  }
+  .paraYourGenderLeft{
+    font-size: xx-large;
+    font-style: italic;
+    font: bold;
+    color: royalblue;
+  }
+  .paraYourGenderLeftBottom{
+    font-size: x-large;
+    font-style: italic;
+    font: bold;
+    color: royalblue;
+    
+  }
+/* end of the front page content*/
+  ul li{
+    padding:30px;
+  }
+  .bt{
+    width:100px;
+    height:50px;
+  }
+  .am{
+    background-color: aqua;
+    padding-top:50px;
+    padding-left:33px;
+    padding-right:-35px;
+  }
+ #scrollable{
+  margin-top: 8px;
+  height:70vh;
+  overflow: auto;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+} 
+#feedback{
+  height:3vh;
+}
+.head{
+  background-color: rgb(237, 237, 237)	;
+  height:7vh;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 20px 120px 0 rgba(0, 0, 0, 0.13);
+}
+.mainwindow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.font {
+  vertical-align: middle;
+  transform: translateZ(0);
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.2s;
+  transition-property: transform;
+}
+
+.font:hover,
+.font:focus,
+.font:active {
+  transform: scale(1.1);
+}
+
+#image{
+  height:200px;
+  width:200px;
+  opacity: 0.8;
+  }
+#connecting{
+display:flex;
+justify-content: center;
+}
+#connectText{
+font-size: x-large;
+font-style: italic;
+color: white;
+text-shadow: 2px 1px 2px #000000;
+}
+
+#forImage{
+  display: flex;
+  margin-top: 20%;
+  justify-content: center;
+}
+.mainMessage{
+  height: 82vh;
+}
+#feedback{
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  color: red;
+  opacity:0.8;
+  font-style: italic;
+}
+#containMessageBox{
+  background-color: rgb(229,221,213);
+  height:93vh;
+}
+#frontMessage{
+  height:93vh;
+}
+#videoWindow{
+  border-right:solid 3px grey ;
+  background-color: darkgray;
+  opacity: 1;
+  height:93vh;
+}
+.mymess{
+  margin-left: 0px;
+  height:93vh;
+}
+.wholeContent{
+/* background-color: royalblue; */
+height:100vh;
+max-height:100vh;
+overflow-y: hidden;
+}
+/* #cardFoot{
+  border-radius: 15px;
+} */
+.videoSeperate{
+  /* width:100%; */
+  background-color: white;
+  margin-right: 10px;
+  height: 2px;
+  margin-top: 50vh;
+}
+.g{
+  height:75vh;
+  width: 100vw;
+  max-width: 100vw;
+  background-color: blue;
+}
+.gg{
+  height:75vh;
+  width: 100vw;
+  max-width: 100vw;
+  background-color: blue;
+}
+.about{
+  padding-left: 10px;
+  font-size: large;
+  font-style: italic;
+}
+.footPara{
+  padding-left: 10px;
+  font-size: large;
+  font-style: italic;
+  color: teal;
+}
+@media only screen and (max-width: 991px) {
+  #frontMessage{
+    height:63vh;
+    border-right:solid 2px grey ;
+  }
+
+  #videoWindow{
+    background-color: darkgray;
+    opacity: 1;
+    max-height:30vh;
+  }
+
+  #containMessageBox{
+    background-color: rgb(229,221,213);
+    height:63vh;
+  }
+  .mainMessage{
+    height: 52vh;
+  }
+  #scrollable{
+    margin-top: 4px;
+    height:42vh;
+    overflow: auto;
+  } 
+  #connectText{
+    font-size: x-large;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 1px 2px #000000;
+  }
+
+   #localVideo {
+    top:0px; 
+    margin-top:10vh;
+    right:0px; 
+    margin-left:5%;  
+    width:30vw;
+    height:30vh;
+  } 
+   #peerVideo #localVideo{
+  }
+  #peerVideo{
+    height:30vh;
+    width:100%;
+  }
+
+  .btn-action {
+    height:45px;
+    width:45px;
+    line-height:10px;
+    text-align:center;
+    border-radius:50%;
+    border:solid 0px grey;
+    cursor:pointer;
+    transition-duration: 0.25s;
+    background-color:transparent;
+    margin-bottom:2px
+    }
+    
+}
+
